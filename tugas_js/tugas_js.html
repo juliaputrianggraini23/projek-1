@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    function myFunction() {
+      alert("selamat datang");
+    }
+    function inputan(){
+      prompt("masukan nama anda?");
+    } 
+    function konfirmasi(){
+      let teks = "apakah anda ingin keluar?";
+      if (confirm(teks) == true){
+        teks = "oke!";
+      } else{
+        teks = "batal!";
+      }
+
+    }
+    
+    </script>
+
+    <p>Click the button to display an alert box.</p>
+    
+    <button onclick="myFunction()">klik</button>
+    <button onclick="inputan()">klik</button>
+    <button onclick="konfirmasi()">klik</button>
+
+    
+</body>
+</html>

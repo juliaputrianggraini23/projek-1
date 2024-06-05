@@ -1,0 +1,46 @@
+p{
+    color: brown;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+li,a{
+      text-decoration: none;
+      list-style: none; 
+      color: black;  
+}
+nav{
+    background-color: palevioletred;
+    padding: 15px;
+}
+
+section{
+    display: flex;
+    height: 340px;
+    
+}
+.kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+
+}
+.kanan> img{
+    width: auto;
+    object-fit: cover;
+    height: 500px;
+    
+}
+footer{
+    padding: 15px;
+
+
+}
